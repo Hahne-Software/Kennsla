@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint *.ts*",
-    "check": "rome check ."
+    "check": "rome check .",
+    "format": "rome format ."
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
