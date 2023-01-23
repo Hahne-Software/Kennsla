@@ -23,6 +23,7 @@ importers:
       next: ^13.1.1
       react: 18.2.0
       react-dom: 18.2.0
+      rome: ^11.0.0
       tsconfig: workspace:*
       typescript: ^4.5.3
       ui: workspace:*
@@ -38,6 +39,7 @@ importers:
       '@types/react-dom': 18.0.10
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
+      rome: 11.0.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.4
 
@@ -58,6 +60,7 @@ importers:
       next: ^13.1.1
       react: 18.2.0
       react-dom: 18.2.0
+      rome: ^11.0.0
       tsconfig: workspace:*
       typescript: ^4.5.3
       ui: workspace:*
@@ -73,6 +76,7 @@ importers:
       '@types/react-dom': 18.0.10
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
+      rome: 11.0.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.4
 
@@ -103,6 +107,7 @@ importers:
       eslint: ^7.32.0
       eslint-config-custom: workspace:*
       react: ^18.2.0
+      rome: ^11.0.0
       tsconfig: workspace:*
       typescript: ^4.5.2
     devDependencies:
@@ -111,6 +116,7 @@ importers:
       eslint: 7.32.0
       eslint-config-custom: link:../eslint-config-custom
       react: 18.2.0
+      rome: 11.0.0
       tsconfig: link:../tsconfig
       typescript: 4.9.4
 
