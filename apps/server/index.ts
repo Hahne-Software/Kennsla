@@ -2,7 +2,7 @@ import express from "express";
 import { buildSchema } from "graphql";
 import { graphqlHTTP } from "express-graphql";
 
-console.log("Hello World");
+console.log("Starting Kennsla server...");
 
 // init and start express server
 const app = express();
@@ -32,6 +32,6 @@ app.use(
 );
 
 app.listen(3000, () => {
-    console.log("Server started...");
+    console.log("Kennsla server started...");
     console.log("GraphQL-Endpoint: http://localhost:3000/graphql");
 });
