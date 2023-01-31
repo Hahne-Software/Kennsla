@@ -7,6 +7,12 @@ console.log("Starting Kennsla server...");
 // init and start express server
 const app = express();
 
+// add logging middleware
+app.use((req, res, next) => {
+    console.log(`${req.method} ${req.url}`);
+    next();
+});
+
 // Construct a schema, using GraphQL schema language
 var schema = buildSchema(`
     type Query {
